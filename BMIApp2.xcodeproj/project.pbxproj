@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC69FD4D1A41B16C00BBCEFF /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC69FD4C1A41B16C00BBCEFF /* CustomTableViewCell.xib */; };
+		AC69FD501A41BBA900BBCEFF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69FD4F1A41BBA900BBCEFF /* CustomTableViewCell.swift */; };
 		AC6CBA8C1A403B4100B44F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBA8B1A403B4100B44F38 /* AppDelegate.swift */; };
 		AC6CBA8F1A403B4100B44F38 /* BMIApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBA8D1A403B4100B44F38 /* BMIApp2.xcdatamodeld */; };
 		AC6CBA911A403B4100B44F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBA901A403B4100B44F38 /* ViewController.swift */; };
@@ -14,6 +16,9 @@
 		AC6CBA961A403B4100B44F38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6CBA951A403B4100B44F38 /* Images.xcassets */; };
 		AC6CBA991A403B4100B44F38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6CBA971A403B4100B44F38 /* LaunchScreen.xib */; };
 		AC6CBAA51A403B4100B44F38 /* BMIApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBAA41A403B4100B44F38 /* BMIApp2Tests.swift */; };
+		AC6CBAAF1A403D6500B44F38 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBAAE1A403D6500B44F38 /* AddViewController.swift */; };
+		AC6CBAB11A403D9E00B44F38 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBAB01A403D9E00B44F38 /* ResultViewController.swift */; };
+		AC6CBAB31A4056B600B44F38 /* InfoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CBAB21A4056B600B44F38 /* InfoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC69FD4C1A41B16C00BBCEFF /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		AC69FD4F1A41BBA900BBCEFF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		AC6CBA861A403B4100B44F38 /* BMIApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6CBA8A1A403B4100B44F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC6CBA8B1A403B4100B44F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		AC6CBA9E1A403B4100B44F38 /* BMIApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6CBAA31A403B4100B44F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC6CBAA41A403B4100B44F38 /* BMIApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIApp2Tests.swift; sourceTree = "<group>"; };
+		AC6CBAAE1A403D6500B44F38 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AC6CBAB01A403D9E00B44F38 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AC6CBAB21A4056B600B44F38 /* InfoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC69FD4E1A41B9D100BBCEFF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC69FD4C1A41B16C00BBCEFF /* CustomTableViewCell.xib */,
+				AC6CBA901A403B4100B44F38 /* ViewController.swift */,
+				AC69FD4F1A41BBA900BBCEFF /* CustomTableViewCell.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		AC6CBA7D1A403B4100B44F38 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +99,11 @@
 		AC6CBA881A403B4100B44F38 /* BMIApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC6CBAB21A4056B600B44F38 /* InfoStore.swift */,
 				AC6CBA8B1A403B4100B44F38 /* AppDelegate.swift */,
-				AC6CBA901A403B4100B44F38 /* ViewController.swift */,
+				AC69FD4E1A41B9D100BBCEFF /* ViewController */,
+				AC6CBAAE1A403D6500B44F38 /* AddViewController.swift */,
+				AC6CBAB01A403D9E00B44F38 /* ResultViewController.swift */,
 				AC6CBA921A403B4100B44F38 /* Main.storyboard */,
 				AC6CBA951A403B4100B44F38 /* Images.xcassets */,
 				AC6CBA971A403B4100B44F38 /* LaunchScreen.xib */,
@@ -197,6 +220,7 @@
 			files = (
 				AC6CBA941A403B4100B44F38 /* Main.storyboard in Resources */,
 				AC6CBA991A403B4100B44F38 /* LaunchScreen.xib in Resources */,
+				AC69FD4D1A41B16C00BBCEFF /* CustomTableViewCell.xib in Resources */,
 				AC6CBA961A403B4100B44F38 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6CBAB11A403D9E00B44F38 /* ResultViewController.swift in Sources */,
+				AC6CBAB31A4056B600B44F38 /* InfoStore.swift in Sources */,
 				AC6CBA911A403B4100B44F38 /* ViewController.swift in Sources */,
+				AC69FD501A41BBA900BBCEFF /* CustomTableViewCell.swift in Sources */,
 				AC6CBA8C1A403B4100B44F38 /* AppDelegate.swift in Sources */,
+				AC6CBAAF1A403D6500B44F38 /* AddViewController.swift in Sources */,
 				AC6CBA8F1A403B4100B44F38 /* BMIApp2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +439,7 @@
 				AC6CBAAA1A403B4100B44F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC6CBAAB1A403B4100B44F38 /* Build configuration list for PBXNativeTarget "BMIApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				AC6CBAAD1A403B4100B44F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
